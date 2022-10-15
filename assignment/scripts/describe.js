@@ -68,10 +68,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// Created a boolean 'isStudent' set to true, created 2 variables, age set to '34' & zip set to '55407'
+// If 'isStudent' equal to true && zip is less than 80000, we will console log 'You're a student on the Wes t Coast!'
+// Else if 'isStudent' is equal to false or age is less than 30, we console.log 'What are your hobbies?'
+// Else if 'isStudent' equals to true, then we console.log 'Welcome to Prime!', else would be 'How about the weather?'
 
 //CODE
 /*
@@ -123,6 +123,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX: colorOne should be set to 'blue' and colorTwo should be set to 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -139,7 +140,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+// FIX: temp should be temp greater than 39 && if time is is greater than or equal to 4.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -152,7 +153,7 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+//FIX if minAge is less than age
 if(minAge <= age) {
   console.log('no entry');
 } else {
